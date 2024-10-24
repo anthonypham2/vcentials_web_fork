@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Report.css'; // Add custom styling if needed
 
 export function Report() {
   const [records, setRecords] = useState([]);

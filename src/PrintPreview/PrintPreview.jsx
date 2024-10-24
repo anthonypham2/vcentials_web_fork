@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import './PrintPreview.css'; // Add custom styling if needed
 
 export default function PrintPreview() {
   const [records, setRecords] = useState([]);
